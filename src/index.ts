@@ -6,13 +6,13 @@ function add(a: number, b: number) {
 
 interface Car {
 	year: number;
-	model: string;
-	electric: boolean;
+	model: string | number;
+	electric?: boolean;
 }
 
 let myCar: Car = {
-	year: 123,
-	model: "One",
+	year: 5,
+	model: "one",
 	electric: true,
 };
 

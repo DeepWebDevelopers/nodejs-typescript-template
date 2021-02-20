@@ -4,8 +4,8 @@ function add(a, b) {
     return a + b;
 }
 let myCar = {
-    year: 123,
-    model: "One",
+    year: 5,
+    model: "one",
     electric: true,
 };
 console.log(`${myCar.year}`);
