@@ -10,7 +10,11 @@ interface Car {
 	electric: boolean;
 }
 
-let myCar: Car;
+let myCar: Car = {
+	year: 123,
+	model: "One",
+	electric: true,
+};
 
 console.log(`${myCar.year}`);
 
