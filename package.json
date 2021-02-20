@@ -16,6 +16,7 @@
 	"scripts": {
 		"build": "tsc",
 		"start": "ts-node-dev --respawn src/index.ts",
+		"start2": "ts-node-dev --respawn src/express/express.ts",
 		"dev": "nodemon --exec ts-node src/index.ts"
 	},
 	"dependencies": {
