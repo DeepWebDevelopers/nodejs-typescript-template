@@ -1,9 +1,9 @@
 # nodejs-typescript-template
 
-If you want to install everything as is with all packages then run `yarn install` after cloning `git clone https://github.com/DeepWebDevelopers/nodejs-typescript-template` the repo. Then just run `yarn dev` and get to work! 
+If you want to install everything as is with all packages then run `yarn install` after cloning `git clone https://github.com/DeepWebDevelopers/nodejs-typescript-template` the repo. Then just run `yarn dev` and get to work!
 
-**TIP** 
-before running `yarn install` or `npm install` (to get all the packages) edit the package file for the packages you want. This way it will only install your selected packages and not everything. To remove a packages just do `yarn remove <package>`
+**TIP**
+before running `yarn install` (to get all the packages) edit the package file for the packages you want. This way it will only install your selected packages and not everything. To remove a packages just do `yarn remove <package>`
 
 # Steps to install everything manually
 
@@ -18,6 +18,6 @@ I prefer yarn, but you can use node too.
 
 # Next Steps?
 
-Run `yarn build` or `npm build` to compile all the code and run it! 
+Run `yarn build` to compile all the code and run it! - Javascript can be found in the dist folder.
 
 This is just a demo package with a node and typescript setup pre-build. Feel free to delete or install anything you need.
