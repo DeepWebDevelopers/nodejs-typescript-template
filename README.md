@@ -16,6 +16,14 @@ I prefer yarn, but you can use node too.
 5. `yarn add -D ts-node-dev` (optional - does the same thing as #6) allows ts-node to watch active files.
 6. `yarn add -D nodemon` (optional - does the same thing as #5)
 
+# Extra info
+
+I have also added
+
+> "resolveJsonModule": true
+
+In case your node files use config files.
+
 # Next Steps?
 
 Run `yarn build` to compile all the code and run it! - Javascript can be found in the dist folder.
